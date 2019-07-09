@@ -5,21 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style rel="stylesheet", type="text/css", href="assets/css/style.css"></style>
-    <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript", src="assets/javascript/app.js"></script>
 </head>
 <body>
     <!-- Pick a theme for trivia Game -->
 
     <!-- Header for the name of the Game -->
-
-    <!-- Timer display -->
-
+    <h1>League of Legends Trivia Game!!!</h1>
     <!-- Question display -->
-
+    <h2><span id="question"></span></h2>
+    <!-- Timer display -->
+    <h3>Time Left: <span id="timer">10</span></h3>
     <!-- Answers that are clickable -->
-
-    
+    <div> 
+        <button type="button" class="btn btn-primary btn-lg btn-block"><span id="q1"></button>
+        <button type="button" class="btn btn-secondary btn-lg btn-block"><span id="q2"></button>
+        <button type="button" class="btn btn-primary btn-lg btn-block"><span id="q3"></button>
+        <button type="button" class="btn btn-secondary btn-lg btn-block"><span id="q4"></button>
+    </div>  
 </body>
 </html>
